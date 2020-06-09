@@ -9,7 +9,6 @@ def update_status
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
          ]
       },
-      binding.pry
       :capulet => {
          :patriarch => {name: "Lord Capulet", age: "50"},
          :matriarch => {name: "Lady Capulet", age: "51"},
@@ -23,8 +22,8 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
-
-  def update_stat
+epic_tragedy[:montague][:hero][status:] = "dead"
+epic_tragedy[:capulet][:heroine][status:] = "dead"
 
 
 
